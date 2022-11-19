@@ -1,0 +1,57 @@
+/* common for all page start  */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  color: #666666;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,9,121,1) 48%, rgba(0,212,255,1) 100%);
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: aqua;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: aqua;
+  color: black;
+  border-radius: 30%;
+}
+
+.topnav a.active {
+  background-color: royalblue;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.contain_bar {
+  position: relative;
+  top: 10px;
+  height: 300px;
+  padding: 100px;
+  border: greenyellow 2px solid;
+  display: block;
+  overflow: hidden;
+
+}
+
+/*  end common for alll */
+
+
+/* Registration From */

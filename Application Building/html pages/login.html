@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="./../static/css/index1.css">
+  <link rel="stylesheet" href="./../static/css/">
+  <script defer src="./../static/js/login-page.js"></script>
+
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="./indextsajid.html">Home</a>
+    <a href="./login.html" class="active">Login</a>
+    <a href="./register.html">Register</a>
+    <!-- <a href="#">predict</a> -->
+    <p style="color: aquamarine; float: right; padding-right: 10px;"> Car Damage Assissment</p>
+  </div>
+  <main id="main-holder">
+    <h1 id="login-header" style="color:black;">Login</h1>
+
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  </main>
+</body>
+
+</html>
