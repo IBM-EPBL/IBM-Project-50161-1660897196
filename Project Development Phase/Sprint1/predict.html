@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./../static/css/index1.css">
+  <link rel="stylesheet" href="./login-page.css">
+  <!-- <link rel="stylesheet" href="./main.py"> -->
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="./indextsajid.html" >Home</a>
+    <a href="./login.html">Login</a>
+    <a href="./register.html" >Register</a>
+    <!-- <a href="./predict.html" class="active">predict</a> -->
+    <p style="color: aquamarine; float: right; padding-right: 10px;"> Car Damage Assissment</p>
+</div>
+  <div id="page">
+    <div id="content">
+      <div style="margin-bottom: 20px;">
+  
+        <p align="justify"><strong>
+          <form action="/predict" method="post" enctype="multipart/form-data" name="form1">
+                  <table border="0" align="center">
+                    <tr>
+                      <td colspan="2"><div align="center" class="style5">
+                          <h2 class="style5"><span class="style8">Upload Image </span></h2>
+                      </div></td>
+                    </tr>
+                    <tr>
+                      <td height="37"><h2 class="style5 style6"> Car Body Image </h2></td>
+                      <td><label>
+  
+                    <td><input name="fileupload" type="file" id="fileupload" /></td>
+                      </label></td>
+                    </tr>
+  
+             <tr>
+                      <td height="37"><h2 class="style5 style6"> Car Level  Image </h2></td>
+                      <td><label>
+  
+                    <td><input name="fileupload1" type="file" id="fileupload1" /></td>
+                      </label></td>
+                    </tr>
+  
+             <tr>
+                      <td height="37"><h2 class="style5 style6"> Estimate Cost </h2></td>
+                      <td>
+  
+                    <td>{{prediction}}</td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td><label>
+                        <input type="submit" name="Submit" value="Submit" />
+                        <input type="reset" name="Submit2" value="Reset">
+                      <a href="user_reg.jsp"></a></label></td>
+                    </tr>
+                  </table>
+            </form>
+        </p>
+        <p>&nbsp;</p>
+        </blockquote>
+      </div>
+      <div>&nbsp;</div>
+      <div class="twocols"></div>
+    </div>
+    <div>
+      <button class="btn btn-danger" style="float: right;" onclick="logout()">Log out</button>
+      <script src="./../static/js/logout.js"></script>
+    </div>
+    <!-- end content -->
+    <!-- end sidebar -->
+    <div style="clear: both;">&nbsp;</div>
+   
+  </div>
+  
+</body>
+</html>
